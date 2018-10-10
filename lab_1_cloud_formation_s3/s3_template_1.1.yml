@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Brian S3 Bucket"
+Resources:
+  BrianS3Bucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: "brian-bucket-2018-09-26"

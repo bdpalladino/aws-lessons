@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Brian S3 Bucket"
+Parameters:
+  BrianS3BucketName:
+    Type: String
+Conditions:
+  PreferredRegion: !Equals ["AWS::Region", "us-east-1"]
+Resources:
+  BrianS3Bucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName:
+        !If
+          - PreferredRegion
+          - !Join [ '-', [Ref: "AWS::Region", Ref: BrianS3BucketName]]
+          - !Join [ '-', [Ref: "AWS::AccountId", Ref: BrianS3BucketName]]
