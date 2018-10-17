@@ -11,12 +11,12 @@ Create the most minimal CFN template possible that can be used to create an AWS 
 Yml template:
 ```
 AWSTemplateFormatVersion: "2010-09-09"
-  Description: "Brian S3 Bucket"
-	Resources:
-  	  BrianS3Bucket:
-    	Type: "AWS::S3::Bucket"
-    	Properties:
-      	  BucketName: "brian-bucket-asdfxyz1"
+Description: "Brian S3 Bucket"
+  Resources:
+    BrianS3Bucket:
+      Type: "AWS::S3::Bucket"
+      Properties:
+        BucketName: "brian-bucket-asdfxyz1"
 ```
 
 Command line to create the stack and S3 bucket:
