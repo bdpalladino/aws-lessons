@@ -13,4 +13,4 @@ AWS lessons, notes, excercises and code samples
 
 ## Labs
 
-1. Using CloudFormation to create an S3 bucket
+1. Using CloudFormation to create an S3 bucket. [Lab 1 materials](https://github.com/bdpalladino/aws-lessons/tree/master/lab_1_cloud_formation_s3)
