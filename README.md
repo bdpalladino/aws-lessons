@@ -1,4 +1,4 @@
-# aws-lessons
+# Learning About Amazon Web Services
 AWS lessons, notes, excercises and code samples
 
 ## Prerequisites
@@ -10,3 +10,7 @@ AWS lessons, notes, excercises and code samples
 3. [Create an access key](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html) for the user group and save the secret access key
 4. [Install the AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/installing.html) on your machine
 5. [Configure the AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) to use your access credentials, default region and default output format
+
+## Labs
+
+1. Using CloudFormation to create an S3 bucket
